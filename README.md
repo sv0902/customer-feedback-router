@@ -13,20 +13,22 @@ What It Does
 6. Saves all records into feedback.db and displays the manual review queue in the console.
 
 
-Project Structure
+ Project Structure
 
+```text
 feedback_system/
 ├── data/
-│   └── feedback.csv        Input feedback dataset
-├── main.py                 Runs the pipeline
-├── ai_service.py           Gemini API calls and parsing
-├── database.py             SQLite setup and queries
-├── test_system.py          Pytest test cases
-├── requirements.txt        Project dependencies
-├── .env.example            Environment template
-├── .gitignore              Ignored files
-├── design_note.md          Design notes
-└── README.md               Project guide
+│   └── feedback.csv
+├── main.py
+├── ai_service.py
+├── database.py
+├── test_system.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── design_note.md
+└── README.md
+```
 
 
 Setup and Usage
